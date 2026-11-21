@@ -3,15 +3,6 @@ name: Publish LinkedLOL
 on:
   push:
     branches: [main]
-    paths:
-      - 'images/**'
-      - 'index.html'
-      - 'styles.css'
-      - 'app.js'
-      - 'search.mjs'
-      - 'favicon.svg'
-      - 'build.py'
-      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
